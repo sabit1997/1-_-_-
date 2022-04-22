@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+body {
+    background-color: #5B2386;
+    font-family: 'GmarketSansMedium';
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.txt-hide {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    line-height: 0;
+    font-size: 1px;
+    color: transparent;
+}
+
+.button {
+    height: 66px;
+    font-weight: 700;
+    color: #5B2386;
+    background-color: #FCEE21;
+    padding: 0 49px;
+    border-radius: 56px;
+    box-shadow: 0px 0px 10px 0px #00000080;
+}
+
+/* header */
+
+.cont-title .header-title {
+    width: 564px;
+    margin-top: 194px;
+    margin-bottom: 125px;
+}
+
+.cont-title .header-title::after {
+    display: block;
+    content: '';
+    background-image: url(../img/clock.png);
+    height: 225px;
+}
+
+/* main */
+
+.cont-main .famous-saying {
+    font-family: 'OTEnjoystoriesBA';
+    font-size: 36px;
+    color: #F5DF4D;
+    margin-bottom: 78px;
+}
+
+.cont-main .definition {
+    font-size: 18px;
+    margin-bottom: 102px;
+}
+
+.cont-main .txt-strong {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.enter-form .enter {
+    text-align: center;
+    padding: 17px 41px 16px 39px;
+    color: #BABCBE;
+    border-radius: 7px;
+    margin: 0 17px;
+}
+
+.enter-form .job {
+    width: 148px;
+}
+
+.enter-form .time {
+    width: 94px;
+}
+
+.enter-form .enter-txt {
+    margin-bottom: 115px;
+}
+
+.enter-form .outcome {
+    margin-bottom: 147px;
+}
+
+.enter-form .outcome:hover {
+    cursor: url(img/click.png) auto;
+}
+
+.result-section {
+    margin-bottom: 136.36px;
+}
+
+.result-section .result-txt {
+    margin-bottom: 127px;
+}
+
+.result-section .result-txt .large-txt {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.result-section .go-button {
+    margin-right: 18px;
+}
+
+.result-section .share {
+    background-color: #fff;
+}
+
+/* footer */
+
+.cont-footer .weniv-logo {
+    margin-bottom: 20px;
+}
+
+.cont-footer .copyright {
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
