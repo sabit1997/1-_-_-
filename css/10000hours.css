@@ -60,18 +60,26 @@ body {
 
 /* header */
 
-.cont-title .header-title {
+.cont-title-section .header-title {
     width: 564px;
     margin-top: 194px;
     margin-bottom: 125px;
+    position: relative;
 }
 
-.cont-title .header-title::after {
+.cont-title-section h1::after {
     display: block;
     content: '';
+    width: 100%;
+    height: 265px;
     background-image: url(../img/clock.png);
-    height: 225px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 120px;
 }
+/* 창 줄어들 때 움직이는 것 해결하기 */
+
 
 /* main */
 
@@ -85,6 +93,22 @@ body {
 .cont-main .definition {
     font-size: 18px;
     margin-bottom: 102px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 102px;
+}
+
+.cont-main .definition::after {
+    content: '';
+    display: block;
+    width: 486px;
+    height: 32px;
+    background-image: url(../img/quotes.png);
+    position: absolute;
+    top: 10px;
+    left: -60px;
 }
 
 .cont-main .txt-strong {
@@ -102,6 +126,7 @@ body {
 
 .enter-form .job {
     width: 148px;
+    margin-bottom: 27px;
 }
 
 .enter-form .time {
@@ -126,6 +151,7 @@ body {
 
 .result-section .result-txt {
     margin-bottom: 127px;
+    line-height: 1;
 }
 
 .result-section .result-txt .large-txt {
@@ -140,6 +166,7 @@ body {
 
 .result-section .share {
     background-color: #fff;
+    margin-left: -4px;
 }
 
 /* footer */
